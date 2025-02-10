@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Latte",
+        "summary": "1.5 shot ristretto üzerine ince kremalı süt.",
+        "image_name": "Latte"
+    },
+    {
+        "title": "Büyük Boy Latte",
+        "summary": "Double shot üzerine ince kremalı süt.",
+        "image_name": "Latte"
+    },
+    {
+        "title": "Cappuccino",
+        "summary": "Double shot üzerine süt ve süt köpüğü.",
+        "image_name": "Latte"
+    },
+    {
+        "title": "Büyük Cappuccino",
+        "summary": "Double shot üzerine süt ve süt köpüğü.",
+        "image_name": "Latte"
+    },
+    {
+        "title": "Flat White",
+        "summary": "1.5 shot ristretto üzerine ince kremalı süt. Latte' ye göre daha az süt bulunur.",
+        "image_name": "FlatWhite"
+    },
+    {
+        "title": "Cortado",
+        "summary": "Double shot üzerine espresso miktarı kadar süt",
+        "image_name": "Cortado"
+    },
+    {
+        "title": "Piccolo",
+        "summary": "Single shot espresso üzeri süt. Boyut olarak Cortado ile aynı boyuttadır.",
+        "image_name": "Piccolo"
+    },
+    {
+        "title": "Dulce De Leche Latte",
+        "summary": "1.5 shot ristretto içerisine süt reçeli konulup karıştırıldıktan sonra üstüne ince kremalı süt.",
+        "image_name": "Latte"
+    },
+    {
+        "title": "Büyük Dulce De Leche Latte",
+        "summary": "Double shot ristretto içerisine süt reçeli konulup karıştırıldıktan sonra üstüne ince kremalı süt.",
+        "image_name": "Latte"
+    },
+    {
+        "title": "Matcha Latte",
+        "summary": "Matcha tozu sıcak su ile karıştırılıp üzerine ince kremalı süt.",
+        "image_name": "MatchaLatte"
+    },
+    {
+        "title": " Büyük Matcha Latte",
+        "summary": "Matcha tozu sıcak su ile karıştırılıp üzerine ince kremalı süt.",
+        "image_name": "MatchaLatte"
+    }
+]
+
+

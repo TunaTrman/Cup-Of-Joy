@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Türk Çayı",
+      "categories": [
+        "Diğer İçecekler"
+      ],
+      "summary": "Karadenizin yaylalarından özel olarak toplanmış nefis lezzet.",
+      "image_name": "Çay"
+    },
+    {
+      "title": "Sıcak Çikolata",
+      "categories": [
+        "Diğer İçecekler"
+      ],
+      "summary": "Özel olarak getirtilen çikolata tozu su ile açılır üzerine ince süt kreması eklenir.",
+      "image_name": "SıcakÇikolata"
+    }
+]
+

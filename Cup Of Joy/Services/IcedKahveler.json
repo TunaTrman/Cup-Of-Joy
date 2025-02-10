@@ -1,0 +1,68 @@
+
+[
+    {
+        "title": "Cold Drip",
+        "categories": [
+            "Soğuk Kahveler"
+        ],
+        "summary": "Soğuk demleme yöntemiyle hazırlanır. Filtre kahve gibi soğuk kahve içmek isteyen müşteriler için birebir.",
+        "image_name": "ColdDrip"
+    },
+    {
+        "title": "Iced Americano",
+        "categories": [
+            "Soğuk Kahveler"
+        ],
+        "summary": "Double shot espresso üzerine su.",
+        "image_name": "IcedAmericano"
+    },
+    {
+        "title": "Iced Latte",
+        "categories": [
+            "Soğuk Kahveler"
+        ],
+        "summary": "Double shot üzerine soğuk süt.",
+        "image_name": "Iced Latte"
+    },
+    {
+        "title": "Iced Cortado",
+        "categories": [
+            "Soğuk Kahveler"
+        ],
+        "summary": "Double shot espresso üzerine espresso miktarı kadar süt.",
+        "image_name": "IcedCortado"
+    },
+    {
+        "title": "Iced Piccolo",
+        "categories": [
+            "Soğuk Kahveler"
+        ],
+        "summary": "Single shot espresso üzerine süt",
+        "image_name": "IcedCortado"
+    },
+    {
+        "title": "Iced FlatWhite",
+        "categories": [
+            "Soğuk Kahveler"
+        ],
+        "summary": "Double shot espresso üzerine süt. Iced Cortado kadar az sütlü değil ve Iced Latte kadar da süt bulunmamakta.",
+        "image_name": "IcedFlatWhite"
+    },
+    {
+        "title": "Iced Dulce De Leche Latte",
+        "categories": [
+            "Soğuk Kahveler"
+        ],
+        "summary": "Double shot içerisine süt reçili eklendikten sonra ayrışana kadar karıştırılır ve süt eklenir.",
+        "image_name": "Iced Latte"
+    },
+    {
+        "title": "Iced Matcha Latte",
+        "categories": [
+            "Soğuk Kahveler"
+        ],
+        "summary": "Matcha tozu sıcak su ile ayrıştırılır ve üzerine soğuk süt eklenir.",
+        "image_name": "IcedMatchaLatte"
+    }
+]
+

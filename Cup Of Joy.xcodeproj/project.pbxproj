@@ -7,23 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53FAD48AB832E17A8A4267B6 /* Pods_Cup_Of_Joy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0266E0B49AC06D19DDF5B54D /* Pods_Cup_Of_Joy.framework */; };
 		C69B49842A09147000B21D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49832A09147000B21D40 /* AppDelegate.swift */; };
 		C69B49862A09147000B21D40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49852A09147000B21D40 /* SceneDelegate.swift */; };
-		C69B49882A09147000B21D40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49872A09147000B21D40 /* ViewController.swift */; };
-		C69B498B2A09147000B21D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69B49892A09147000B21D40 /* Main.storyboard */; };
 		C69B498D2A09147200B21D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69B498C2A09147200B21D40 /* Assets.xcassets */; };
 		C69B49902A09147200B21D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69B498E2A09147200B21D40 /* LaunchScreen.storyboard */; };
+		C69B49A22A09162C00B21D40 /* DigerIcecekler.json in Resources */ = {isa = PBXBuildFile; fileRef = C69B49A12A09162C00B21D40 /* DigerIcecekler.json */; };
+		C69B49A62A09167200B21D40 /* SutluKahveler.json in Resources */ = {isa = PBXBuildFile; fileRef = C69B49A52A09167200B21D40 /* SutluKahveler.json */; };
+		C69B49A82A09168C00B21D40 /* IcedKahveler.json in Resources */ = {isa = PBXBuildFile; fileRef = C69B49A72A09168C00B21D40 /* IcedKahveler.json */; };
+		C69B49AA2A0916A500B21D40 /* SadeKahveler.json in Resources */ = {isa = PBXBuildFile; fileRef = C69B49A92A0916A500B21D40 /* SadeKahveler.json */; };
+		C69B49AD2A09174600B21D40 /* SutluKahvelerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49AC2A09174600B21D40 /* SutluKahvelerCell.swift */; };
+		C69B49AF2A09177200B21D40 /* SutluKahvelerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49AE2A09177200B21D40 /* SutluKahvelerVC.swift */; };
+		C69B49B22A0917DD00B21D40 /* SadeKahvelerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49B12A0917DD00B21D40 /* SadeKahvelerVC.swift */; };
+		C69B49B42A0917F400B21D40 /* SadeKahvelerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49B32A0917F400B21D40 /* SadeKahvelerCell.swift */; };
+		C69B49B72A09182800B21D40 /* IcedKahvelerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49B62A09182800B21D40 /* IcedKahvelerCell.swift */; };
+		C69B49B92A09184200B21D40 /* IcedKahvelerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49B82A09184200B21D40 /* IcedKahvelerVC.swift */; };
+		C69B49BC2A09188900B21D40 /* DigerIceceklerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49BB2A09188900B21D40 /* DigerIceceklerVC.swift */; };
+		C69B49BE2A0918AB00B21D40 /* DigerIceceklerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49BD2A0918AB00B21D40 /* DigerIceceklerCell.swift */; };
+		C69B49C02A0918CB00B21D40 /* Kahve.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49BF2A0918CB00B21D40 /* Kahve.swift */; };
+		C69B49C22A09190F00B21D40 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49C12A09190F00B21D40 /* AuthHeaderView.swift */; };
+		C69B49C42A09193000B21D40 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49C32A09193000B21D40 /* CustomTextField.swift */; };
+		C69B49C62A09194D00B21D40 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49C52A09194D00B21D40 /* CustomButton.swift */; };
+		C69B49C82A09198000B21D40 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49C72A09198000B21D40 /* AlertManager.swift */; };
+		C69B49CA2A0919C800B21D40 /* LoginScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49C92A0919C800B21D40 /* LoginScreenVC.swift */; };
+		C69B49CC2A0919DD00B21D40 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49CB2A0919DD00B21D40 /* RegisterController.swift */; };
+		C69B49CE2A091A0000B21D40 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49CD2A091A0000B21D40 /* ForgotPasswordController.swift */; };
+		C69B49D02A091A1700B21D40 /* WebViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49CF2A091A1700B21D40 /* WebViewerController.swift */; };
+		C69B49D22A091A3B00B21D40 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49D12A091A3B00B21D40 /* TabBarViewController.swift */; };
+		C69B49D42A091BEA00B21D40 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49D32A091BEA00B21D40 /* HomeScreenVC.swift */; };
+		C69B49D62A091C0300B21D40 /* BebekBranchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49D52A091C0300B21D40 /* BebekBranchVC.swift */; };
+		C69B49D82A091C1C00B21D40 /* ZorluBranchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49D72A091C1C00B21D40 /* ZorluBranchVC.swift */; };
+		C69B49DA2A091C3100B21D40 /* VadiBranchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49D92A091C3100B21D40 /* VadiBranchVC.swift */; };
+		C69B49DC2A091C5100B21D40 /* NisantasiBranchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49DB2A091C5100B21D40 /* NisantasiBranchVC.swift */; };
+		C69B49DE2A091C6A00B21D40 /* BagdatBranchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49DD2A091C6A00B21D40 /* BagdatBranchVC.swift */; };
+		C69B49E02A091C7A00B21D40 /* IstinyeBranchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49DF2A091C7A00B21D40 /* IstinyeBranchVC.swift */; };
+		C69B49E22A091C9400B21D40 /* QrScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49E12A091C9400B21D40 /* QrScreenVC.swift */; };
+		C69B49E42A091CB200B21D40 /* SettingsScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69B49E32A091CB200B21D40 /* SettingsScreenVC.swift */; };
+		C6EB723D2A0924400078ABB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6EB723C2A0924400078ABB8 /* GoogleService-Info.plist */; };
+		C6EB72412A0926640078ABB8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C6EB72402A0926640078ABB8 /* FirebaseAuth */; };
+		C6EB72432A0926640078ABB8 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C6EB72422A0926640078ABB8 /* FirebaseDatabase */; };
+		C6EB72452A0926640078ABB8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C6EB72442A0926640078ABB8 /* FirebaseFirestore */; };
+		C6EB72472A0926640078ABB8 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C6EB72462A0926640078ABB8 /* FirebaseStorage */; };
+		C6EB72492A092DFC0078ABB8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB72482A092DFC0078ABB8 /* AuthService.swift */; };
+		C6EB724B2A092F730078ABB8 /* RegiserUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB724A2A092F730078ABB8 /* RegiserUserRequest.swift */; };
+		C6EB724D2A09395C0078ABB8 /* LoginUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB724C2A09395C0078ABB8 /* LoginUserRequest.swift */; };
+		C6EB724F2A099AEA0078ABB8 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB724E2A099AEA0078ABB8 /* Validator.swift */; };
+		C6EB72512A09B25A0078ABB8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EB72502A09B25A0078ABB8 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0266E0B49AC06D19DDF5B54D /* Pods_Cup_Of_Joy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cup_Of_Joy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF6730D08F9FC823C6FCCAC /* Pods-Cup Of Joy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cup Of Joy.debug.xcconfig"; path = "Target Support Files/Pods-Cup Of Joy/Pods-Cup Of Joy.debug.xcconfig"; sourceTree = "<group>"; };
 		C69B49802A09147000B21D40 /* Cup Of Joy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cup Of Joy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69B49832A09147000B21D40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C69B49852A09147000B21D40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C69B49872A09147000B21D40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C69B498A2A09147000B21D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C69B498C2A09147200B21D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C69B498F2A09147200B21D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C69B49912A09147200B21D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69B49A12A09162C00B21D40 /* DigerIcecekler.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DigerIcecekler.json; sourceTree = "<group>"; };
+		C69B49A52A09167200B21D40 /* SutluKahveler.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SutluKahveler.json; sourceTree = "<group>"; };
+		C69B49A72A09168C00B21D40 /* IcedKahveler.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = IcedKahveler.json; sourceTree = "<group>"; };
+		C69B49A92A0916A500B21D40 /* SadeKahveler.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SadeKahveler.json; sourceTree = "<group>"; };
+		C69B49AC2A09174600B21D40 /* SutluKahvelerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SutluKahvelerCell.swift; sourceTree = "<group>"; };
+		C69B49AE2A09177200B21D40 /* SutluKahvelerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SutluKahvelerVC.swift; sourceTree = "<group>"; };
+		C69B49B12A0917DD00B21D40 /* SadeKahvelerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadeKahvelerVC.swift; sourceTree = "<group>"; };
+		C69B49B32A0917F400B21D40 /* SadeKahvelerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadeKahvelerCell.swift; sourceTree = "<group>"; };
+		C69B49B62A09182800B21D40 /* IcedKahvelerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IcedKahvelerCell.swift; sourceTree = "<group>"; };
+		C69B49B82A09184200B21D40 /* IcedKahvelerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IcedKahvelerVC.swift; sourceTree = "<group>"; };
+		C69B49BB2A09188900B21D40 /* DigerIceceklerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigerIceceklerVC.swift; sourceTree = "<group>"; };
+		C69B49BD2A0918AB00B21D40 /* DigerIceceklerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigerIceceklerCell.swift; sourceTree = "<group>"; };
+		C69B49BF2A0918CB00B21D40 /* Kahve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kahve.swift; sourceTree = "<group>"; };
+		C69B49C12A09190F00B21D40 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		C69B49C32A09193000B21D40 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		C69B49C52A09194D00B21D40 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C69B49C72A09198000B21D40 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		C69B49C92A0919C800B21D40 /* LoginScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenVC.swift; sourceTree = "<group>"; };
+		C69B49CB2A0919DD00B21D40 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		C69B49CD2A091A0000B21D40 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		C69B49CF2A091A1700B21D40 /* WebViewerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewerController.swift; sourceTree = "<group>"; };
+		C69B49D12A091A3B00B21D40 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C69B49D32A091BEA00B21D40 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		C69B49D52A091C0300B21D40 /* BebekBranchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebekBranchVC.swift; sourceTree = "<group>"; };
+		C69B49D72A091C1C00B21D40 /* ZorluBranchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZorluBranchVC.swift; sourceTree = "<group>"; };
+		C69B49D92A091C3100B21D40 /* VadiBranchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VadiBranchVC.swift; sourceTree = "<group>"; };
+		C69B49DB2A091C5100B21D40 /* NisantasiBranchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NisantasiBranchVC.swift; sourceTree = "<group>"; };
+		C69B49DD2A091C6A00B21D40 /* BagdatBranchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagdatBranchVC.swift; sourceTree = "<group>"; };
+		C69B49DF2A091C7A00B21D40 /* IstinyeBranchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstinyeBranchVC.swift; sourceTree = "<group>"; };
+		C69B49E12A091C9400B21D40 /* QrScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrScreenVC.swift; sourceTree = "<group>"; };
+		C69B49E32A091CB200B21D40 /* SettingsScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenVC.swift; sourceTree = "<group>"; };
+		C6EB723C2A0924400078ABB8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6EB72482A092DFC0078ABB8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		C6EB724A2A092F730078ABB8 /* RegiserUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegiserUserRequest.swift; sourceTree = "<group>"; };
+		C6EB724C2A09395C0078ABB8 /* LoginUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserRequest.swift; sourceTree = "<group>"; };
+		C6EB724E2A099AEA0078ABB8 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		C6EB72502A09B25A0078ABB8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DFDB7DFDB3541224A572FDF4 /* Pods-Cup Of Joy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cup Of Joy.release.xcconfig"; path = "Target Support Files/Pods-Cup Of Joy/Pods-Cup Of Joy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +109,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6EB72432A0926640078ABB8 /* FirebaseDatabase in Frameworks */,
+				C6EB72472A0926640078ABB8 /* FirebaseStorage in Frameworks */,
+				C6EB72412A0926640078ABB8 /* FirebaseAuth in Frameworks */,
+				C6EB72452A0926640078ABB8 /* FirebaseFirestore in Frameworks */,
+				53FAD48AB832E17A8A4267B6 /* Pods_Cup_Of_Joy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		069AFB38BE6184188A965D37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AF6730D08F9FC823C6FCCAC /* Pods-Cup Of Joy.debug.xcconfig */,
+				DFDB7DFDB3541224A572FDF4 /* Pods-Cup Of Joy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1D98FAB7732D27E43EC4D7F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0266E0B49AC06D19DDF5B54D /* Pods_Cup_Of_Joy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80795ADA2D52982400979048 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49D32A091BEA00B21D40 /* HomeScreenVC.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		80795ADB2D52984200979048 /* ZorluBranch */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49D72A091C1C00B21D40 /* ZorluBranchVC.swift */,
+			);
+			path = ZorluBranch;
+			sourceTree = "<group>";
+		};
+		80795ADC2D52985100979048 /* VadiBranch */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49D92A091C3100B21D40 /* VadiBranchVC.swift */,
+			);
+			path = VadiBranch;
+			sourceTree = "<group>";
+		};
+		80795ADF2D52985900979048 /* NisantasiBranch */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49DB2A091C5100B21D40 /* NisantasiBranchVC.swift */,
+			);
+			path = NisantasiBranch;
+			sourceTree = "<group>";
+		};
+		80795AE22D52988600979048 /* IstinyeBranch */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49DF2A091C7A00B21D40 /* IstinyeBranchVC.swift */,
+			);
+			path = IstinyeBranch;
+			sourceTree = "<group>";
+		};
+		80795AEA2D5298A600979048 /* BebekBranch */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49D52A091C0300B21D40 /* BebekBranchVC.swift */,
+			);
+			path = BebekBranch;
+			sourceTree = "<group>";
+		};
+		80795AEC2D5298E200979048 /* BagdatBranch */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49DD2A091C6A00B21D40 /* BagdatBranchVC.swift */,
+			);
+			path = BagdatBranch;
+			sourceTree = "<group>";
+		};
 		C69B49772A09147000B21D40 = {
 			isa = PBXGroup;
 			children = (
 				C69B49822A09147000B21D40 /* Cup Of Joy */,
 				C69B49812A09147000B21D40 /* Products */,
+				069AFB38BE6184188A965D37 /* Pods */,
+				1D98FAB7732D27E43EC4D7F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +214,170 @@
 		C69B49822A09147000B21D40 /* Cup Of Joy */ = {
 			isa = PBXGroup;
 			children = (
-				C69B49832A09147000B21D40 /* AppDelegate.swift */,
-				C69B49852A09147000B21D40 /* SceneDelegate.swift */,
-				C69B49872A09147000B21D40 /* ViewController.swift */,
-				C69B49892A09147000B21D40 /* Main.storyboard */,
-				C69B498C2A09147200B21D40 /* Assets.xcassets */,
-				C69B498E2A09147200B21D40 /* LaunchScreen.storyboard */,
+				C69B49C72A09198000B21D40 /* AlertManager.swift */,
+				C6EB72482A092DFC0078ABB8 /* AuthService.swift */,
+				C6EB724E2A099AEA0078ABB8 /* Validator.swift */,
+				C69B49A02A09160B00B21D40 /* SettingsScreen */,
+				C69B499F2A09160300B21D40 /* QrScreen */,
+				C69B499E2A0915F800B21D40 /* HomeScreen */,
+				C69B499D2A0915EE00B21D40 /* TabBarController */,
+				C69B499C2A0915E700B21D40 /* LoginScreen */,
+				C69B499B2A0915E000B21D40 /* Models */,
+				C69B499A2A0915DB00B21D40 /* Views */,
+				C69B49992A0915CB00B21D40 /* TableViewController */,
+				C69B49982A0914EE00B21D40 /* Services */,
+				C69B49972A0914D500B21D40 /* Delegate */,
+				C6EB723E2A0924640078ABB8 /* Supporting */,
 				C69B49912A09147200B21D40 /* Info.plist */,
 			);
 			path = "Cup Of Joy";
+			sourceTree = "<group>";
+		};
+		C69B49972A0914D500B21D40 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49852A09147000B21D40 /* SceneDelegate.swift */,
+				C69B49832A09147000B21D40 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		C69B49982A0914EE00B21D40 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49A12A09162C00B21D40 /* DigerIcecekler.json */,
+				C69B49A52A09167200B21D40 /* SutluKahveler.json */,
+				C69B49A72A09168C00B21D40 /* IcedKahveler.json */,
+				C69B49A92A0916A500B21D40 /* SadeKahveler.json */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C69B49992A0915CB00B21D40 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49BA2A09186600B21D40 /* DigerIcecekler */,
+				C69B49B52A09180200B21D40 /* IcedKahveler */,
+				C69B49B02A0917B200B21D40 /* SadeKahveler */,
+				C69B49AB2A09171300B21D40 /* SutluKahveler */,
+				C69B49BF2A0918CB00B21D40 /* Kahve.swift */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		C69B499A2A0915DB00B21D40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49C12A09190F00B21D40 /* AuthHeaderView.swift */,
+				C69B49C32A09193000B21D40 /* CustomTextField.swift */,
+				C69B49C52A09194D00B21D40 /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C69B499B2A0915E000B21D40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C6EB724A2A092F730078ABB8 /* RegiserUserRequest.swift */,
+				C6EB724C2A09395C0078ABB8 /* LoginUserRequest.swift */,
+				C6EB72502A09B25A0078ABB8 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C69B499C2A0915E700B21D40 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49C92A0919C800B21D40 /* LoginScreenVC.swift */,
+				C69B49CB2A0919DD00B21D40 /* RegisterController.swift */,
+				C69B49CD2A091A0000B21D40 /* ForgotPasswordController.swift */,
+				C69B49CF2A091A1700B21D40 /* WebViewerController.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		C69B499D2A0915EE00B21D40 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49D12A091A3B00B21D40 /* TabBarViewController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		C69B499E2A0915F800B21D40 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				80795ADA2D52982400979048 /* HomeScreen */,
+				80795AEA2D5298A600979048 /* BebekBranch */,
+				80795ADB2D52984200979048 /* ZorluBranch */,
+				80795ADC2D52985100979048 /* VadiBranch */,
+				80795ADF2D52985900979048 /* NisantasiBranch */,
+				80795AE22D52988600979048 /* IstinyeBranch */,
+				80795AEC2D5298E200979048 /* BagdatBranch */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		C69B499F2A09160300B21D40 /* QrScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49E12A091C9400B21D40 /* QrScreenVC.swift */,
+			);
+			path = QrScreen;
+			sourceTree = "<group>";
+		};
+		C69B49A02A09160B00B21D40 /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49E32A091CB200B21D40 /* SettingsScreenVC.swift */,
+			);
+			path = SettingsScreen;
+			sourceTree = "<group>";
+		};
+		C69B49AB2A09171300B21D40 /* SutluKahveler */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49AC2A09174600B21D40 /* SutluKahvelerCell.swift */,
+				C69B49AE2A09177200B21D40 /* SutluKahvelerVC.swift */,
+			);
+			path = SutluKahveler;
+			sourceTree = "<group>";
+		};
+		C69B49B02A0917B200B21D40 /* SadeKahveler */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49B12A0917DD00B21D40 /* SadeKahvelerVC.swift */,
+				C69B49B32A0917F400B21D40 /* SadeKahvelerCell.swift */,
+			);
+			path = SadeKahveler;
+			sourceTree = "<group>";
+		};
+		C69B49B52A09180200B21D40 /* IcedKahveler */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49B62A09182800B21D40 /* IcedKahvelerCell.swift */,
+				C69B49B82A09184200B21D40 /* IcedKahvelerVC.swift */,
+			);
+			path = IcedKahveler;
+			sourceTree = "<group>";
+		};
+		C69B49BA2A09186600B21D40 /* DigerIcecekler */ = {
+			isa = PBXGroup;
+			children = (
+				C69B49BB2A09188900B21D40 /* DigerIceceklerVC.swift */,
+				C69B49BD2A0918AB00B21D40 /* DigerIceceklerCell.swift */,
+			);
+			path = DigerIcecekler;
+			sourceTree = "<group>";
+		};
+		C6EB723E2A0924640078ABB8 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				C69B498C2A09147200B21D40 /* Assets.xcassets */,
+				C69B498E2A09147200B21D40 /* LaunchScreen.storyboard */,
+				C6EB723C2A0924400078ABB8 /* GoogleService-Info.plist */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +387,23 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C69B49942A09147200B21D40 /* Build configuration list for PBXNativeTarget "Cup Of Joy" */;
 			buildPhases = (
+				0F2C86C6F3C807C1B4D53125 /* [CP] Check Pods Manifest.lock */,
 				C69B497C2A09147000B21D40 /* Sources */,
 				C69B497D2A09147000B21D40 /* Frameworks */,
 				C69B497E2A09147000B21D40 /* Resources */,
+				AB33AB7D67E3B9B8694FF89A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Cup Of Joy";
+			packageProductDependencies = (
+				C6EB72402A0926640078ABB8 /* FirebaseAuth */,
+				C6EB72422A0926640078ABB8 /* FirebaseDatabase */,
+				C6EB72442A0926640078ABB8 /* FirebaseFirestore */,
+				C6EB72462A0926640078ABB8 /* FirebaseStorage */,
+			);
 			productName = "Cup Of Joy";
 			productReference = C69B49802A09147000B21D40 /* Cup Of Joy.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +432,9 @@
 				Base,
 			);
 			mainGroup = C69B49772A09147000B21D40;
+			packageReferences = (
+				C6EB723F2A0926640078ABB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C69B49812A09147000B21D40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,36 +449,105 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69B49AA2A0916A500B21D40 /* SadeKahveler.json in Resources */,
 				C69B49902A09147200B21D40 /* LaunchScreen.storyboard in Resources */,
+				C69B49A82A09168C00B21D40 /* IcedKahveler.json in Resources */,
+				C69B49A62A09167200B21D40 /* SutluKahveler.json in Resources */,
+				C69B49A22A09162C00B21D40 /* DigerIcecekler.json in Resources */,
 				C69B498D2A09147200B21D40 /* Assets.xcassets in Resources */,
-				C69B498B2A09147000B21D40 /* Main.storyboard in Resources */,
+				C6EB723D2A0924400078ABB8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F2C86C6F3C807C1B4D53125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cup Of Joy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB33AB7D67E3B9B8694FF89A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cup Of Joy/Pods-Cup Of Joy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cup Of Joy/Pods-Cup Of Joy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cup Of Joy/Pods-Cup Of Joy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C69B497C2A09147000B21D40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C69B49882A09147000B21D40 /* ViewController.swift in Sources */,
+				C69B49CA2A0919C800B21D40 /* LoginScreenVC.swift in Sources */,
+				C69B49C42A09193000B21D40 /* CustomTextField.swift in Sources */,
+				C69B49E42A091CB200B21D40 /* SettingsScreenVC.swift in Sources */,
+				C6EB724B2A092F730078ABB8 /* RegiserUserRequest.swift in Sources */,
+				C69B49BC2A09188900B21D40 /* DigerIceceklerVC.swift in Sources */,
+				C69B49C82A09198000B21D40 /* AlertManager.swift in Sources */,
+				C69B49C22A09190F00B21D40 /* AuthHeaderView.swift in Sources */,
+				C69B49DE2A091C6A00B21D40 /* BagdatBranchVC.swift in Sources */,
+				C69B49B42A0917F400B21D40 /* SadeKahvelerCell.swift in Sources */,
+				C69B49D62A091C0300B21D40 /* BebekBranchVC.swift in Sources */,
+				C69B49C62A09194D00B21D40 /* CustomButton.swift in Sources */,
+				C69B49DA2A091C3100B21D40 /* VadiBranchVC.swift in Sources */,
+				C69B49AF2A09177200B21D40 /* SutluKahvelerVC.swift in Sources */,
+				C69B49DC2A091C5100B21D40 /* NisantasiBranchVC.swift in Sources */,
+				C69B49D22A091A3B00B21D40 /* TabBarViewController.swift in Sources */,
+				C69B49C02A0918CB00B21D40 /* Kahve.swift in Sources */,
+				C6EB724F2A099AEA0078ABB8 /* Validator.swift in Sources */,
+				C69B49BE2A0918AB00B21D40 /* DigerIceceklerCell.swift in Sources */,
+				C69B49D42A091BEA00B21D40 /* HomeScreenVC.swift in Sources */,
+				C6EB724D2A09395C0078ABB8 /* LoginUserRequest.swift in Sources */,
+				C69B49B72A09182800B21D40 /* IcedKahvelerCell.swift in Sources */,
+				C69B49E02A091C7A00B21D40 /* IstinyeBranchVC.swift in Sources */,
+				C69B49AD2A09174600B21D40 /* SutluKahvelerCell.swift in Sources */,
+				C69B49D82A091C1C00B21D40 /* ZorluBranchVC.swift in Sources */,
+				C6EB72512A09B25A0078ABB8 /* User.swift in Sources */,
 				C69B49842A09147000B21D40 /* AppDelegate.swift in Sources */,
+				C69B49CE2A091A0000B21D40 /* ForgotPasswordController.swift in Sources */,
+				C69B49CC2A0919DD00B21D40 /* RegisterController.swift in Sources */,
+				C69B49B22A0917DD00B21D40 /* SadeKahvelerVC.swift in Sources */,
 				C69B49862A09147000B21D40 /* SceneDelegate.swift in Sources */,
+				C69B49B92A09184200B21D40 /* IcedKahvelerVC.swift in Sources */,
+				C6EB72492A092DFC0078ABB8 /* AuthService.swift in Sources */,
+				C69B49D02A091A1700B21D40 /* WebViewerController.swift in Sources */,
+				C69B49E22A091C9400B21D40 /* QrScreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C69B49892A09147000B21D40 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C69B498A2A09147000B21D40 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C69B498E2A09147200B21D40 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +675,7 @@
 		};
 		C69B49952A09147200B21D40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF6730D08F9FC823C6FCCAC /* Pods-Cup Of Joy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +686,6 @@
 				INFOPLIST_FILE = "Cup Of Joy/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +703,7 @@
 		};
 		C69B49962A09147200B21D40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDB7DFDB3541224A572FDF4 /* Pods-Cup Of Joy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +714,6 @@
 				INFOPLIST_FILE = "Cup Of Joy/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +751,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C6EB723F2A0926640078ABB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6EB72402A0926640078ABB8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6EB723F2A0926640078ABB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C6EB72422A0926640078ABB8 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6EB723F2A0926640078ABB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C6EB72442A0926640078ABB8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6EB723F2A0926640078ABB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C6EB72462A0926640078ABB8 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6EB723F2A0926640078ABB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C69B49782A09147000B21D40 /* Project object */;
 }
